@@ -1,0 +1,31 @@
+{
+  "name": "SouthEnd",
+  "version": "1.0.0",
+  "description": "South End Web Design website",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build",
+    "deploy": "surge --project ./dist --domain SouthEndWebDesign.com"
+  },
+  "keywords": [],
+  "author": "Kai Cianflone",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.0",
+    "bootstrap": "^4.0.0-beta",
+    "express": "latest",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5",
+    "run-sequence": "^2.2.1"
+  }
+}
